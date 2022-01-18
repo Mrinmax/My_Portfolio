@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components';
 import {lightTheme} from './Themes';
 import {Design, Develope} from './AllSvgs';
-
+import BigTitle from '../subComponents/BigTitle';
 import LogoComponent from '../subComponents/LogoComponent';
 import Social from '../subComponents/Social';
 import PowerButton from '../subComponents/PowerButton';
@@ -55,6 +55,8 @@ function Skill() {
                         
                     </Description>
                 </Main>
+
+                <BigTitle text="SKILLS" top='80%' right='30%' />
             </Box>
         </ThemeProvider>
     )

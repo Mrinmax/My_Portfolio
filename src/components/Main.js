@@ -23,12 +23,20 @@ function Main() {
                <Social theme={click ? 'dark' : 'light'} />
 
                <Center click={click}>
-                   <YinYang onClick={() => handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                   <YinYang onClick={() => handleClick()} width={click ? 120 : 150} height={click ? 120 : 150} fill='currentColor' />
                    <span>click here</span>
                </Center>
 
                <Contact target="_blank" to={{pathname:"mailto:mrinalkantisardar5@gmail.com"}}>
                    <motion.h3
+                   initial={{
+                       y: -200,
+                       transition: { type:'spring', duration: 1.5, delay: 1}
+                   }}
+                   animate={{
+                       y: 0,
+                       transition: { type:'spring', duration: 1.5, delay: 1}
+                    }}
                    whileHover={{scale: 1.1}}
                    whileTap={{scale: 0.9}}
                    >
@@ -37,6 +45,14 @@ function Main() {
                </Contact>
                <BLOG to="/blog">
                    <motion.h2
+                   initial={{
+                       y: -200,
+                       transition: { type:'spring', duration: 1.5, delay: 1}
+                    }}
+                    animate={{
+                        y: 0,
+                        transition: { type:'spring', duration: 1.5, delay: 1}
+                    }}
                    whileHover={{scale: 1.1}}
                    whileTap={{scale: 0.9}}
                    >
@@ -45,6 +61,14 @@ function Main() {
                </BLOG>
                <PROJECT click={click} to="/project">
                    <motion.h2
+                   initial={{
+                       y:-200,
+                       transition: { type:'spring', duration: 1.5, delay: 1}
+                    }}
+                    animate={{
+                       y:0,
+                       transition: { type:'spring', duration: 1.5, delay: 1}
+                    }}
                    whileHover={{scale: 1.1}}
                    whileTap={{scale: 0.9}}
                    >
@@ -55,6 +79,14 @@ function Main() {
                <BottomBar>
                     <ABOUT click={click} to="/about">
                         <motion.h2
+                        initial={{
+                            y:200,
+                            transition: { type:'spring', duration: 1.5, delay: 1}
+                         }}
+                         animate={{
+                            y:0,
+                            transition: { type:'spring', duration: 1.5, delay: 1}
+                         }}
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.9}}
                         >
@@ -63,6 +95,14 @@ function Main() {
                     </ABOUT>
                     <SKILL to="/skill">
                         <motion.h2
+                        initial={{
+                            y:200,
+                            transition: { type:'spring', duration: 1.5, delay: 1}
+                         }}
+                         animate={{
+                            y:0,
+                            transition: { type:'spring', duration: 1.5, delay: 1}
+                         }}
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.9}}
                         >

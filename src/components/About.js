@@ -8,6 +8,8 @@ import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 
 import astronaut from '../assets/Images/spaceman.png';
+import BigTitle from '../subComponents/BigTitle';
+
 
 function About() {
     return (
@@ -26,8 +28,12 @@ function About() {
                 <br /> <br />
                 I'm interested in the whole frontend stack Like trying new things and building great projects.
                 <br /> <br />
-                A language that doesn’t affect the way you think about programming is not worth knowing. You can connect with me via social links.
+                A language that doesn’t affect the way you think about programming is not worth knowing.
+                <br /> <br />
+                You can connect with me via social links.
                 </Main>
+
+                <BigTitle text="ABOUT" top="10%" left="5%" />
                
             </Box>
         </ThemeProvider>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import img from '../assets/Images/books.jpg';
+import BigTitle from '../subComponents/BigTitle';
 import LogoComponent from '../subComponents/LogoComponent';
 import PowerButton from '../subComponents/PowerButton';
 import Social from '../subComponents/Social';
@@ -30,6 +31,8 @@ function Blog() {
                         }
                     </Grid> */}
                 </Center>
+
+                <BigTitle text="BLOG" top='5rem' left='5rem' />
             </Container>
         </MainContainer>
     )

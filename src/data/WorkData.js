@@ -10,12 +10,52 @@ export const Work = [
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Project 2",
+        description:"Comming soon...",
+        tags:["Amazing"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"",
+        github:""
+        
+    },
+    {
+        id:3,
+        name:"Project 3",
+        description:"Comming soon...",
+        tags:["Amazing"],
+        
+        demo:"",
+        github:""
+        
+    },
+    {
+        id:4,
+        name:"Project 4",
+        description:"Comming soon...",
+        tags:["Amazing"],
+        
+        demo:"",
+        github:""
+        
+    },
+    {
+        id:5,
+        name:"Project 5",
+        description:"Comming soon...",
+        tags:["Amazing"],
+        
+        demo:"",
+        github:""
+        
+    },
+    {
+        id:6,
+        name:"Project 6",
+        description:"Comming soon...",
+        tags:["Amazing"],
+        
+        demo:"",
+        github:""
         
     }
     
