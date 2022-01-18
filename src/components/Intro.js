@@ -14,7 +14,7 @@ function Intro() {
                 <Text>
                     <h1>Hi,</h1>
                     <h3>I'm Mrinal</h3>
-                    <h6>I love code and build awesome websites! </h6>
+                    <h6>I love to code and build awesome websites! </h6>
                 </Text>
             </SubBox>
             <SubBox>
